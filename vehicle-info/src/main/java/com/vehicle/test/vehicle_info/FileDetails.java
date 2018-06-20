@@ -1,5 +1,10 @@
 package com.vehicle.test.vehicle_info;
 
+/** File details pojo 
+ * 
+ * @author chandrans1
+ *
+ */
 public class FileDetails {
 
 	private final String fileName;

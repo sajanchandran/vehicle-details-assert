@@ -49,7 +49,6 @@ public class VehicleDetailsFileReader {
 	 */
 	public Stream<FileDetails> csv() throws IOException {
 		List<FileDetails> fileDetails = scanFolder();
-		System.out.println(fileDetails);
 		return fileDetails.stream().filter(file -> ("text/csv".equals(file.getMimeType())));
 	}
 
